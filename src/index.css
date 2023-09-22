@@ -1,0 +1,41 @@
+:root {
+    --color-background: #181b29;
+    --color-board: #181b29;
+    --color-cell: #1e2233;
+    --color-filled: #b5443c;
+    --color-text: #f2f2f2;
+    --gutter: 30px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Major Mono Display', monospace;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+.state {
+    padding: 30px;
+}
+
+.state-heading {
+    margin: 0 0 var(--gutter) 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.game {
+    flex: 1 1 auto;
+}

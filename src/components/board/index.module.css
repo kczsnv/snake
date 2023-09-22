@@ -1,0 +1,22 @@
+.board {
+    background-color: var(--color-board);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.cell {
+    background-color: var(--color-cell);
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 1px;
+}
+
+.filled {
+    background-color: var(--color-filled);
+}
