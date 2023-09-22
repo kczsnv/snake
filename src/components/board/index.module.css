@@ -11,7 +11,7 @@
 }
 
 .cell {
-    background-color: var(--color-cell);
+    /*background-color: var(--color-cell);*/
     flex-direction: column;
     flex: 1 1 auto;
     margin: 1px;
