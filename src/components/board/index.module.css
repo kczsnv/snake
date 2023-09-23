@@ -17,6 +17,10 @@
     margin: 1px;
 }
 
-.filled {
-    background-color: var(--color-filled);
+.snake {
+    background-color: var(--color-snake);
+}
+
+.food {
+    background-color: var(--color-food);
 }

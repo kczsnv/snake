@@ -2,7 +2,8 @@
     --color-background: #181b29;
     --color-board: #181b29;
     --color-cell: #1e2233;
-    --color-filled: #c0c1c4;
+    --color-snake: #f1f2eb;
+    --color-food: #8c8880;
     --color-text: #c0c1c4;
     --gutter: 30px;
 }
